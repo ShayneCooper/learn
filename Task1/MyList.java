@@ -66,7 +66,7 @@ class MyList {
 		ListNode last = null;
 		ListNode result = null;
 		while (n1 != null && n2 != null) {
-			if(n1.value <= n2.value){
+			if(n1.data <= n2.data){
 				ListNode nest = val1.next;
 				if(result == null){
 					resutlt = cur1;
